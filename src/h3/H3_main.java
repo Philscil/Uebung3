@@ -18,6 +18,10 @@ public class H3_main {
                 wartend = 0;
                 istVoll = false;
             }
+        } else if (max <= fix) {
+            istVoll = true;
+        } else {
+            istVoll = false;
         }
 
         System.out.println("Max: " + max);
